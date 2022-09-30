@@ -20,10 +20,11 @@
     padding: 5px 20px;
 }
 
-.acticity-btn {
-    background-color: rgb(255, 234, 218);
-    border: 1px solid #c7ced2;
+.activity-btn {
+    background-color: rgb(211, 120, 50);
+    border: 1px solid #2582b8;
     border-radius: 8px;
+
 }
 
 .break-time-list {

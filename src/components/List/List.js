@@ -99,7 +99,7 @@ const List = (props) => {
         sec
       </h3>
       <div>
-        <button onClick={notify} className='actv-btn'>Activity Completed</button>
+        <button onClick={notify} className='activity-btn'>Activity Completed</button>
         <ToastContainer />
       </div>
     </div>
