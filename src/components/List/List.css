@@ -1,0 +1,26 @@
+.list{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+.my-info{
+    display: flex;
+}
+.table-1{
+    width: 100%;
+    background-color: bisque;
+    height: 30px;
+}
+.table-1 td{
+    width: 33%;
+    text-align: center;
+    padding: 5px 20px;
+}
+.acticity-btn{
+    background-color: rgb(255, 234, 218);
+    border: 1px solid #c7ced2;
+    border-radius:8px;
+}
+.break-time-list{
+    display: flex;
+}

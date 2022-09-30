@@ -1,0 +1,16 @@
+.blog{
+    margin-top: 40px;
+    background-color: rgb(255, 255, 204);
+    padding: 10px 50px;
+    padding-bottom: 30px;
+}
+.blog-header{
+    text-align: center;
+    color: blue;
+}
+.blog-section{
+    background-color: antiquewhite;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
