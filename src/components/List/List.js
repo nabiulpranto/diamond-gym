@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const List = (props) => {
-  const notify = () => toast("Great Job! Your Workout is Successful");
+  const notify = () => toast("You have successfully done!");
   const [item, setItem] = useState([]);
   const [time, setTime] = useState([0]);
   useEffect(() => {
