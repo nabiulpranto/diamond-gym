@@ -25,7 +25,7 @@ const Card = () => {
       <div className="left-container">
         <div className="gym-name">
           <img src={logo} alt="logo" className="logo"></img>
-          <h1>USA GYM</h1>
+          <h1>Diamond Gym</h1>
         </div>
         <div className="product-container">
           {/* dynamically rendering all the cards */}

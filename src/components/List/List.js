@@ -4,6 +4,7 @@ import Calculation from "../Calculation/Calculation";
 import "./List.css";
 
 const List = (props) => {
+
   const [item, setItem] = useState([]);
   const [time, setTime] = useState([0]);
   useEffect(() => {
@@ -31,11 +32,11 @@ const List = (props) => {
   return (
     <div className="list">
       <div className="my-info">
-        <img src="../../images/bogura-gym-logo.jpg" alt="Logo" />
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcutewallpaper.org%2F24%2Fgym-png%2Fview-page-24.html&psig=AOvVaw155HSJ0qfUn7szKKR6rqV-&ust=1664632122551000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjM74bUvPoCFQAAAAAdAAAAABAI" alt="Logo" />
         <div>
           {/* change this name */}
-          <h3>Jhankar Mahbub</h3>
-          <p>Nevada, USA</p>
+          <h3>Md.Nabiul Islam Pranto</h3>
+          <p>Gulshan, Dhaka</p>
         </div>
       </div>
       <div>
@@ -43,13 +44,13 @@ const List = (props) => {
           <tbody>
             <tr>
               <td>
-                <h3>70KG</h3>
+                <h3>80KG</h3>
               </td>
               <td>
-                <h3>6'0"</h3>
+                <h3>5'9"</h3>
               </td>
               <td>
-                <h3>40yrs</h3>
+                <h3>24 Years</h3>
               </td>
             </tr>
             <tr>
@@ -94,9 +95,7 @@ const List = (props) => {
           : 0}
         sec
       </h3>
-      <button className="acticity-btn">
-        <p>Activity Completed</p>
-      </button>
+
     </div>
   );
 };
