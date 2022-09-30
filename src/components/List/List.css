@@ -1,7 +1,7 @@
 .list {
     position: sticky;
     top: 0;
-    padding: 30px 20px;
+    padding: 30px 15px;
 }
 
 .my-info {
@@ -17,7 +17,7 @@
 .table-1 td {
     width: 33%;
     text-align: center;
-    padding: 5px 20px;
+    padding: 5px;
 }
 
 .activity-btn {
@@ -34,5 +34,5 @@
 .photo {
     width: 80px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
 }
