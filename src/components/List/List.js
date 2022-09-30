@@ -2,9 +2,12 @@ import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import Calculation from "../Calculation/Calculation";
 import "./List.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const List = (props) => {
-
+  const notify = () => toast("Great Job! Your Workout is Successful");
   const [item, setItem] = useState([]);
   const [time, setTime] = useState([0]);
   useEffect(() => {
@@ -32,7 +35,7 @@ const List = (props) => {
   return (
     <div className="list">
       <div className="my-info">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcutewallpaper.org%2F24%2Fgym-png%2Fview-page-24.html&psig=AOvVaw155HSJ0qfUn7szKKR6rqV-&ust=1664632122551000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjM74bUvPoCFQAAAAAdAAAAABAI" alt="Logo" />
+        <img className="photo" src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/302679426_405059965094937_6044425997672801417_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=v8Oge4BJZhwAX8F9ygY&_nc_ht=scontent.fdac14-1.fna&oh=00_AT-c2KKA77iyRaAOVgdruuGE470dU72b2jjzDanEucK5nQ&oe=633C27DE" alt="" srcset="" />
         <div>
           {/* change this name */}
           <h3>Md.Nabiul Islam Pranto</h3>
@@ -95,7 +98,10 @@ const List = (props) => {
           : 0}
         sec
       </h3>
-
+      <div>
+        <button onClick={notify} className='actv-btn'>Activity Completed</button>
+        <ToastContainer />
+      </div>
     </div>
   );
 };

@@ -29,3 +29,9 @@
 .break-time-list {
     display: flex;
 }
+
+.photo {
+    width: 80px;
+    border-radius: 50%;
+    padding: 10px;
+}
